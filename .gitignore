@@ -162,4 +162,4 @@ cython_debug/
 
 #Task Manger App
 # task_manager/
-# samples/
+samples/
