@@ -28,4 +28,8 @@ class Car:
             self.odometer_reading = mileage
         else:
             print("You can't roll back an odometer!")
+        
+    
+    def get_year(self):
+        print(f'The {self.make}, {self.model} is made {self.year}.')
 

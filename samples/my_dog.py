@@ -1,4 +1,6 @@
-from animals import Dog
+from animals import  Dog, Cat
+
+
 
 my_dog = Dog("Rex", 6)
 
@@ -11,3 +13,7 @@ my_dog.bark()
 my_dog.sit()
 
 my_dog.roll_over()
+
+my_cat = Cat("Blacky", 1)
+
+my_cat.meow()
