@@ -1,6 +1,6 @@
 """ A class that can be used to represent a car. """
 
-class Car:
+class Cars:
     def __init__(self, make, model, year):
         """ Initialize attributes to describe a car. """
         self.make = make 
