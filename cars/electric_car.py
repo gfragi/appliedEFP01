@@ -1,4 +1,4 @@
-from car import Car
+from manolis import Cars
 
 class Battery:
     """ A simple attempt to model a battery for an electric car. """
@@ -25,7 +25,7 @@ class Battery:
         if self.battery_size < 100:
             self.battery_size = 100
 
-class ElectricCar(Car):
+class ElectricCar(Cars):
     def __init__(self, make, model, year):
         """ Initialize attributes of the parent class. """
         super().__init__(make, model, year)

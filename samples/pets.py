@@ -1,10 +1,14 @@
-class Cat:
-    """A simple attempt to model a cat."""
-
+class Pet:
     def __init__(self, name, age):
-        """Initialize name and age attributes."""
         self.name = name
         self.age = age
+
+class Cat(Pet):
+    """A simple attempt to model a cat."""
+
+    def __init__(self, name, age, color):
+        super().__init__(name, age)
+        self.color = color
 
     def meow(self):
         """Simulate a cat meowing in response to a command."""

@@ -1,12 +1,11 @@
 from pets import *
 
-class Goat:
+class Goat(Pet, ):
     """A simple attempt to model a goat."""
 
     def __init__(self, name, age):
         """Initialize name and age attributes."""
-        self.name = name
-        self.age = age
+        super().__init__(name, age)
 
     def bleat(self):
         """Simulate a goat bleating in response to being milked."""
